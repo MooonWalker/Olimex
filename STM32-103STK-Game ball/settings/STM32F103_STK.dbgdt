@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Disassembly</Factory></Window><Window><Factory>Register</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Breakpoints</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window></Windows></PreferedWindows></Debug-Log>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>231</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Register</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Breakpoints</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window></Windows></PreferedWindows><MixedMode>1</MixedMode><CodeCovEnabled>0</CodeCovEnabled><CodeCovShow>0</CodeCovShow></Disassembly>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>915</ColumnWidth1>
+        <ColumnWidth2>244</ColumnWidth2>
+        <ColumnWidth3>61</ColumnWidth3>
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Disassembly</Factory></Window><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows></Build>
+      <Find-in-Files>
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Disassembly</Factory></Window><Window><Factory>Register</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Breakpoints</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window></Windows></PreferedWindows><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files>
+    <Register><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Disassembly</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Breakpoints</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window></Windows></PreferedWindows></Register><Watch><Format><struct_types/><watch_formats><Fmt><Key>{W}Watch-0:((0xFFFFFFFF)&amp;(~(1&lt;&lt;i)))</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:(GPIOB->IDR&amp;mask_port_b)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:(GPIOC->IDR&amp;mask_port_c)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:GPIOA->IDR|(~mask_port_a)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:GPIOA->IDR|(~mask_port_a_uext)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:GPIOB->IDR&amp;mask_port_b_uext</Key><Value>4</Value></Fmt><Fmt><Key>{W}Watch-0:GPIOB->IDR|(~mask_port_b)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:GPIOC->IDR|(~mask_port_c)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:GPIOD->IDR|(~mask_port_d)</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:mask_port_a_uext</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:tempa</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:tempb</Key><Value>1</Value></Fmt><Fmt><Key>{W}Watch-0:value</Key><Value>4</Value></Fmt><Fmt><Key>{W}Watch-1:c</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-1:n</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-1:r</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:c</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:col</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:r</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:row</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:t_c</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-2:t_r</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-3:c</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-3:r</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-3:sign_x</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-3:sign_y</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-3:t_c</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-3:t_r</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-4:c</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-4:r</Key><Value>3</Value></Fmt></watch_formats></Format><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>231</Column0><Column1>291</Column1><Column2>100</Column2><Column3>100</Column3></Watch><Breakpoints><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Disassembly</Factory></Window><Window><Factory>Register</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window><Window><Factory>Watch</Factory></Window></Windows></PreferedWindows></Breakpoints></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18490-8740</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>STM32F103_STK</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-12973-24951</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>Coordinates</Expression></Expression><Expression><Expression>col</Expression></Expression><Expression><Expression>row</Expression></Expression><Expression><Expression>sign_x</Expression></Expression><Expression><Expression>sign_y</Expression></Expression></Expressions><TabId>3</TabId><Column0>231</Column0><Column1>291</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab><Tab><Identity>TabID-1534-25575</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-7314-12944</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\Desktop\STM-103-STK FOR WEB\GAME STM32F103-STK\main.c</Filename><XPos>0</XPos><YPos>221</YPos><SelStart>7210</SelStart><SelEnd>7210</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\Desktop\STM-103-STK FOR WEB\GAME STM32F103-STK\lcd.c</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>9158</SelStart><SelEnd>9158</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\Desktop\STM-103-STK FOR WEB\GAME STM32F103-STK\lcd.h</Filename><XPos>0</XPos><YPos>204</YPos><SelStart>11879</SelStart><SelEnd>11879</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\Desktop\STM-103-STK FOR WEB\GAME STM32F103-STK\i2c.c</Filename><XPos>0</XPos><YPos>143</YPos><SelStart>5341</SelStart><SelEnd>5341</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\Desktop\STM-103-STK FOR WEB\GAME STM32F103-STK\drv_lisxxx.c</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>3279</SelStart><SelEnd>3279</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-008ee8e8><key>iaridepm1</key></Toolbar-008ee8e8><Toolbar-0192f050><key>debuggergui1</key></Toolbar-0192f050></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>667</Bottom><Right>305</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>203</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>212343</sizeHorzCY><sizeVertCX>239844</sizeVertCX><sizeVertCY>699791</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>245</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>247</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>258368</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>209205</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
