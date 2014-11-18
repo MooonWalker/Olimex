@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.8.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Olimex.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Olimex -TC:\CooCox\CoIDE\configuration\ProgramData\Olimex/arm-gcc-link.ld -g">
-      <target file="Olimex.elf" lastModified="149afa894db">
-         <source file="..\obj\stm32f10x_tim.o" lastModified="149afa88f40"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="149afa88fa2"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="149afa88fe6"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="149afa89058"/>
-         <source file="..\obj\lcd3310_SPI.o" lastModified="149afa890cc"/>
-         <source file="..\obj\main.o" lastModified="149afa8913e"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="149afa891bc"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="149afa89239"/>
-         <source file="..\obj\stm32f10x_spi.o" lastModified="149afa892ae"/>
+      <target file="Olimex.elf" lastModified="149c431cab9">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="149c431c4e0"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="149c431c541"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="149c431c586"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="149c431c60a"/>
+         <source file="..\obj\lcd3310_SPI.o" lastModified="149c431c682"/>
+         <source file="..\obj\main.o" lastModified="149c431c6ea"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="149c431c76a"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="149c431c7f9"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="149c431c898"/>
       </target>
    </processor>
 </history>

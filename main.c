@@ -2,7 +2,7 @@
 #include "Olimexino-STM32.h"
 #include "lcd3310.h"
 
-#define LED2PIN GPIO_Pin_1
+#define LED2PIN GPIO_Pin_1   /* yellow LED PA1 0x0002 */
 #define HIGH Bit_SET
 #define LOW Bit_RESET
 
