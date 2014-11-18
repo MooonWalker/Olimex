@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\DATA\Dropbox\Olimex\Practice\cmsis -I..\..\..\..\..\DATA\Dropbox\Olimex\Practice\stm_lib\inc -I..\..\..\..\..\DATA\Dropbox\Olimex\Practice\stm_lib -I..\..\..\..\..\DATA\Dropbox\Olimex\lib\BoardHardware -I..\..\..\..\..\DATA\Dropbox\Olimex\Practice\cmsis_boot -I..\..\..\..\..\DATA\Dropbox\Olimex -I..\..\..\..\..\DATA\Dropbox\Olimex\Practice -I..\..\..\..\..\DATA\Dropbox\Olimex\lib">
+      <target file="stm32f10x_rcc.o" lastModified="149c4434d86">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="149c43c7f4d"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="149c4434c0a">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="149c43c7888"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="149c4434bc5">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="149c43c78a2"/>
+      </target>
+      <target file="main.o" lastModified="149c4434cf6">
+         <source file="..\..\..\main.c" lastModified="149c441276f"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="149c4434c78">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="149c43c88d6"/>
+      </target>
+   </processor>
+</history>

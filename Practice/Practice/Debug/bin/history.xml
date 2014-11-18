@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Practice.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Practice -TC:\CooCox\CoIDE\configuration\ProgramData\Practice/arm-gcc-link.ld -g">
+      <target file="Practice.elf" lastModified="149c4434f96">
+         <source file="..\obj\system_stm32f10x.o" lastModified="149c4434bc5"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="149c4434c0a"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="149c4434c78"/>
+         <source file="..\obj\main.o" lastModified="149c4434cf6"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="149c4434d86"/>
+      </target>
+   </processor>
+</history>
