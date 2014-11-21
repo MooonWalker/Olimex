@@ -1,0 +1,19 @@
+Things to keep in mind
+
+    Only USART1 can operate with clocks up to 72 MHz while the rest can operate at 36 MHz maximum. 
+	This is because USART1 can get full system clock while the others get half of that.
+    USART1 is connected to the high speed APB2 bus while rest are connected to the lower speed APB1 bus. 
+	Most communication peripherals are connected with APB1 bus.
+    GPIO pins associated with USART hardware must be set as alternate function I/Os and 
+	it should be enabled before the hardware modules’ use.
+    TX pins should be set as low speed (2 MHz) AFIO push-pull outputs while RX pins should be 
+	set as floating inputs. 
+	RX pins can also be set as inputs with pull-ups or pull-downs if needed.
+    If flow control is not used then the associated flow control pins can be left as GPIO pins. 
+	For instance PA8, PA11 and PA12 of USART1 can be used as GPIO pins if flow control is not needed.
+    USART/UART pins can be remapped using AFIO_MAPR register. By default, the default pins 
+	like PA9 and PA10 for USART1 are used and not remapped elsewhere because this register is 
+	by default cleared and hardware remapping is not enabled.
+    In exception conditions, APB1RSTR and APB2RSTR registers can be used reset USART/UART hardware.
+
+- See more at: http://embedded-lab.com/blog/?p=8887#sthash.KYd0XA6M.dpuf
