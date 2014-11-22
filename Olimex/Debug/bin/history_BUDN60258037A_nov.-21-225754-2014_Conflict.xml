@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Olimex.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Olimex -TC:\CooCox\CoIDE\configuration\ProgramData\Olimex/arm-gcc-link.ld -g">
+      <target file="Olimex.elf" lastModified="149d433a97b">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="149d433a2c7"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="149d433a343"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="149d433a391"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="149d433a42d"/>
+         <source file="..\obj\lcd3310_SPI.o" lastModified="149d433a4ba"/>
+         <source file="..\obj\main.o" lastModified="149d433a537"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="149d433a5d3"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="149d433a66f"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="149d433a6fb"/>
+      </target>
+   </processor>
+</history>
