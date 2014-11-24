@@ -66,7 +66,7 @@ void setup()
 	   	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	   	NVIC_Init(&NVIC_InitStructure);
 
-	   	GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource9);
+	   	GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource9);  /* AFIO_EXTICR3 */
 
 	   	EXTI_InitStructure.EXTI_Line = EXTI_Line9;
 	   	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
